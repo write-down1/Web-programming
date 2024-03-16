@@ -1,0 +1,130 @@
+#Header {
+  position: absolute;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-weight: 900;
+  font-size: large;
+  text-shadow: #a9a9a9;
+  left: 800px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+body {
+  background-color: #a9a9a9;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.for_menu {
+  background-color: #ff80ff;
+  width: 98%;
+  top: 90px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+}
+.menu_member {
+  text-align: center;
+  width: auto;
+  float: left;
+  margin: 10px;
+  flex: 1;
+}
+
+.for_h {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.forsearchandbutton {
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+}
+
+#search {
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 15 px;
+}
+
+#button {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 9px;
+  margin-left: 5px;
+
+  cursor: pointer;
+}
+.right-side-menu {
+  background-color: #ff80ff;
+  width: 300px;
+  height: 71%;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 1550px;
+  border-radius: 5px;
+}
+#related {
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+
+  position: absolute;
+  left: 100px;
+  text-align: center;
+}
+#related-contents {
+  position: absolute;
+  top: 90px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 15px;
+  color: blue;
+  text-decoration: underline;
+  height: 90%;
+}
+.footer {
+  position: absolute;
+  bottom: 10px;
+  background-color: white;
+  width: 97.5%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.article {
+  position: absolute;
+  background-color: white;
+  top: 183px;
+  bottom: 88px;
+
+  width: 79%;
+  border-radius: 5px;
+  padding: 20px;
+}
+#article-heading {
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.for-h2 {
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+}

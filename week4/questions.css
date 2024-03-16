@@ -1,0 +1,45 @@
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-toggle {
+  color: #b93e3e;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#for_question3 {
+  position: absolute;
+
+  margin-top: 150px;
+}
+
+.paragraph_style {
+  position: absolute;
+  margin-top: 200px;
+}
+#paragraphbackground {
+  position: absolute;
+  top: 55%;
+}
