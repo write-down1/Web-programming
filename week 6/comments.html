@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Comments</title>
+    <link rel="stylesheet" href="comnets.css"></link>
+    <body>
+      <div class="container">
+        <div class="head">
+          <h1>Comment</h1>
+        </div>
+        <div><spin id="comment">0</spin> Comments</div>
+        <div class="text"><p>Write your comment</p></div>
+        <div class="commnets"></div>
+        <div class="commentBox">
+          <img src="profile1.jpg" height="40px" width="40px" alt="" />
+          <div class="content">
+            <h2>Comment: </h2>
+            <input type="text" value="Anymouse" class="user" />
+
+            <div class="commnetinput">
+                <div class="buttons">
+              <input
+                type="text"
+                placeholder="enter the commnet"
+                class="usercomment"
+              />
+              <button type="submit" disabled id="publish">publish</button>
+             
+            </div>
+          </div>
+          <p>
+         
+          </p>
+        </div>
+      </div>
+      <script >
+        "use strict ";
+        const userId={
+            name:null,
+            identity:null,
+            image:null,
+            message:null,
+            date:null            
+        }
+        const userComment=document.querySelector(".userComment");
+        const publishB=document.querySelector("#publish");
+        const comment=document.querySelector(".comments");
+        const userName=document.querySelector(".user");
+        
+      </script>
+    </body>
+  </head>
+</html>

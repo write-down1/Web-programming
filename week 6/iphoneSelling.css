@@ -1,0 +1,32 @@
+#cards {
+  position: absolute;
+  border: 1px solid black;
+  height: 90%;
+  left: 20%;
+  right: 20%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+#iphone1 {
+  border: 1px solid rgb(67, 33, 194);
+  top: 0%;
+  height: 50%;
+}
+
+#iphone2 {
+  border: 1px solid rgb(207, 248, 22);
+  bottom: 0%;
+  height: 45%;
+  width: 100%;
+  position: absolute;
+}
+#iphone1 img {
+  margin: 50px;
+  border-right: 1px solid silver;
+  padding-right: 50px;
+}
+#iphone1 h2 {
+  position: absolute;
+}
